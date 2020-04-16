@@ -1,0 +1,34 @@
+{
+    "ServiceWords": [
+        "package",
+        "import",
+        "public",
+        "private",
+        "class",
+        "enum",
+        "double",
+        "int",
+        "char",
+        "for",
+        "while",
+        "return",
+        "if",
+        "else",
+        "case",
+        "switch",
+        "\\+",
+        "\\-",
+        "\\*",
+        "\\/",
+
+    ],
+
+    "constructions": {
+
+        "IF"        :   "if\\S*\\([\\W\\w]+\\)\\{[\\W\\w]*\\}",
+        "IFELSE"    :   "if",
+        "WHILE"     :   "while\\s*\\([\\W\\w]+\\)\\{[\\W\\w]*\\}",
+        "DOWHILE"   :   "do\\s*\\{[\\W\\w]*\\}\\s*while\\([\\W\\w]+\\)",
+        "SWITCH"    :   "switch\\s*\\([\\W\\w]*\\)"
+    }
+}
